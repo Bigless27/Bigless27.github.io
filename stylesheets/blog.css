@@ -1,0 +1,14 @@
+/*header*/
+body {background-color:#78ab46;}
+
+.title {text-align:center; font-size:1.5em; font-family: verdana; color: #686868; margin-top:1em; border: 2px solid black;}
+.coffee {width: 8em; height:7em; position: absolute; top: 4.5em; right:5em; border: 2px solid black;}
+.name{text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
+.date {text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
+.top-line{bottom-border: 4px solid black; width:100%;}
+
+/*body*/
+.P {background-color: #a8a8a8;border: 2px solid black;}
+
+/*social links*/
+

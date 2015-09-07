@@ -23,7 +23,7 @@ div a:link {color:green; text-decoration: none; background-color:#c0c0c0;}
 /*Social Media Links*/
 .checkout {text-align:center;border-bottom:2px dashed black; font-family: sans-serif; font-weight: bolder; margin-top: 10px; color: black ;}
 
-section a:link {color:blue; text-decoration: none; font-size:3em; background-color: none;}
+section a:link {color:blue; text-decoration: none; font-size:2.5em; background-color: none;}
 
 .soc {display: inline-block; margin-left: 5em; font-family:Verdana;}
 
@@ -39,7 +39,7 @@ div a:link {color:green; text-decoration: none; background-color:#c0c0c0; border
 
 div a:hover {color:red;}
 
-.spacing-top {display:inline-block; margin-left:2em;  font-size: 2em; }
 
 
-.bottomnav{text-align:center; margin-top: 2em;}
+
+.bottomnav{text-align:center;margin-top:2em; font-size:5px;}
