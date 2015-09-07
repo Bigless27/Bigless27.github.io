@@ -1,0 +1,45 @@
+body {background-color:#78ab46;}
+/*top nav*/
+div a:link {color:green; text-decoration: none; background-color:#c0c0c0;}
+
+.spacing-top {display:inline-block; margin-left:2em;  font-size: 2em; }
+
+.topnav{text-align:center;}
+
+.top-line {border-bottom: 3px solid black; width: 100%; margin-top:1em;}
+
+/*Profile Image,Welcome, and about.*/
+.P-img {text-align:center; border: 3px solid #c0c0c0; margin-top: 1em;}
+.img {border: 1px solid black;}
+.welcome{position: absolute; top: 2em; left: 40px; font-family: Arial;border-bottom:10px solid #ffd700;}
+.website {position:absolute; top: 2.5em; left:1.5em;font-size: 50px;border-bottom:10px solid #ffd700;font-family:Cursive;}
+
+.quick {position:absolute; top: 4em; right:4em;font-family: Arial; font-size: 1em;background-color: #c8c8c8;height: 15em;}
+
+/*main body*/
+.main-body {text-align: center;background-color:#ffd700 ; border: 3px solid #c0c0c0;height: 30em;margin-top: 20px;}
+.extra {text-align: center;background-color:#ffd700 ; border: 3px solid #c0c0c0 ; height: 20em;margin-top:20px;}
+
+/*Social Media Links*/
+.checkout {text-align:center;border-bottom:2px dashed black; font-family: sans-serif; font-weight: bolder; margin-top: 10px; color: black ;}
+
+section a:link {color:blue; text-decoration: none; font-size:3em; background-color: none;}
+
+.soc {display: inline-block; margin-left: 5em; font-family:Verdana;}
+
+
+.social{text-align: center;}
+
+
+
+/*bottom nav*/
+.bottom-line {border-bottom: 3px solid black; width: 100%;}
+
+div a:link {color:green; text-decoration: none; background-color:#c0c0c0; border: 1px black solid;}
+
+div a:hover {color:red;}
+
+.spacing-top {display:inline-block; margin-left:2em;  font-size: 2em; }
+
+
+.bottomnav{text-align:center; margin-top: 2em;}
