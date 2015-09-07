@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<a href="http://bigless27.github.io/index.html">My Website</a>
+<p>
+<a href="http://bigless27.github.io/index.html">My Website</a></p>
 
 <p>-What I learned about CSS padding, borders, and margins in this challenge is that the help with postiioning alot. Especially margin and borders which I used alot thorughout this challenge. </p>
 <p>-What I learned about postiioning  is how to use the positioning properties of fixed, absolute, relative, and static to help place the elements in my website the way I wanted to. </p>
