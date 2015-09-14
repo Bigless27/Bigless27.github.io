@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blogthree</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+  <header>
+  <h1>Arrays and Hashes what are they anyways?</h1>
+  <h3>Devbootcamp Phase 0 Week 4</h3>
+
+  <h4> Sunday September 13th 2015</h4>
+</header>
+  <div class="body">
+    <p>
+      Hey guys, hope all is well and you’re day is going well. This week I spent a lot of time learning about arrays and hashes in Ruby. I would like to share with you what they are, some best practices, and give you examples. First off lets talk about arrays. Arrays are basically an ordered list of different elements. The elements in an array can be a lot of different things. They could be a string, float, integer, variable, hash, or even array. There is no limit to how long your array can be or how many different combinations of character types you put in your array. Arrays are very helpful for a a magnitude of reasons. Some examples are storing multiple objects in one place, iterating over the array, and comparisons. You can access specific variables in an array if need be.
+<br>
+<br>
+1.array=[‘apple’,’banana’,’orange’]<br>
+2.“array[2]”
+<br>
+<br>
+
+To call on a specific object in an array, follow the notation above. The first part is the actual notation of defining the array. As you can see that I have placed three objects inside the array. The second part is the method of calling on a specific object in an array. The “array” in the second part is where you would put the name of your array that you created. In this case the array I am trying to access is called array (how convenient). The square brackets with the 2 inside specifies what element I am trying to access in the array. In this case I would be accessing ‘orange’ in the array. The reason I'm accessing ‘orange’ instead of ‘banana’ is because the positions in arrays start at 0. So, the element in the 0 position in the array is ‘apple’ and it moves down the list. This is very helpful to remember because sometimes you may run into the error of trying to call an element in a certain position in the hash that is “out of index”, meaning there is no element in that position.
+
+    </p>
+    <p>
+
+Moving on to hashes, try to think of them like dictionaries. There is a word and a definition of that word. Whenever you search that word you will always get that same definition. While all the words have to be unique, multiple words may have the same definition. Take from example the words “cold” and “freezing” they both mean that you need to put on a jacket. Here’s an example of a hash.
+<br>
+<br>
+hash{“dog”: “hello”,  “cat”: 3}
+<br>
+<br>
+The different elements in the example above are separated by a comma, and note the curly brackets.  There are other ways to express a hash in ruby, but for me this is the best way that I remember how to do use it. The two elements “dog” and “cat” are called the keys in the hash. The keys are the words in the dictionary example I gave above. When we call on the key “dog” we will return “hello”. “Hello” and 3 are called the values. The value are the definitions of the word, and remember that they can be the same. Remember that you can use more the same value over and over again, but the keys need to be different. Unlike actual words in a dictionary a word can only have one definition.
+
+    </p>
+    <p>
+There are some times where you would use an array instead on a hash and vice versa. A hash is built for storing more high-level information such as addresses, and phone numbers. While storing that information you could assign the keys to be the persons name and the values to be their phone number. This make it easier to identify who’s information is whose. Arrays are good at storing information as well but are built for storing more low level information. Arrays are best for storing simple numbers and strings. They are also great to use when you need to iterate through multiple objects and comparisons. Arrays can store a ton of information along with hashes, but hashes are more structured and organized while arrays are usually best for iterations.
+    </p>
+
+
+</div>
+</body>
+</html>

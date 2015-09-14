@@ -10,5 +10,9 @@ body {background-color:#78ab46;}
 /*body*/
 .P {background-color: #a8a8a8;border: 2px solid black;}
 
+.body {background-color: #a8a8a8;border: 2px solid black;}
+
+header {text-align: center;bottom-border: 2px solid black;}
+
 /*social links*/
 
