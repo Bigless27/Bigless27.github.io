@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href=stylesheets/default.css>
-  <link rel="stylesheet" type="text/css" href=stylesheets/default.css>
-	<title>Ryan Lesson's Website</title>
+  <title>Blog number?</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href=../stylesheets/default.css>
+  <link rel="stylesheet" type="text/css" href=../stylesheets/blog.css>
 </head>
 
+<main>
+  <!--topnav-->
 
-  <body>
-  <!--top nav-->
-    <div class="topnav">
+  <div class="topnav">
     <header> <div class="spacing-top">
       <a href="#">Home</a></div>
        <div class="spacing-top"><a href="#">About Me</a> </div>
 
         <div class="spacing-top"><a href="#">Projects</a></div>
 
-        <div class="spacing-top"> <a href="Blogs/blog-main.html">Blog</a></div>
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
         <div class="spacing-top">  <a href="#">Content</a></div>
         </div>
+  <!--Header-->
+  <div class="title"><h1>Blog title></h1></div>
+  <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
+  <div class="name">by Ryan Lesson</div>
+  <div class="date"> Date?</div>
+  <div class="top-line"></div>
 
 
- </header>
+    <div class="P">
+      <!--Add Paragraphs here -->
+    <p>
+    </p>
 
-<!--picture-->
-<div class="top-line"></div>
-<div class="P-img">
-  <img class="img" src="Bigless27.github.io.imgs/Head-shot.jpg" width="400" height="300" alt="My head shot" />
-  <h1 class="welcome">Welcome to my</h1>
-  <h1 class="website">Website!</h1>
-  <h3 class= "quick"> (Quick information about my site)</h3>
-</div>
 
-  	<section class="main-body">   <h2> Main body of content</h2>
-  	</section>
+    <p>
 
-  	<section class="extra">   <h2>Extra Content</h2>
-  	</section>
-<!--Social links-->
-<div class="checkout">Follow me on social media</div>
+    </p>
+
+  </div>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+
+  <!--Social-->
+
+  <div class="checkout">Follow me on social media</div>
   <section class="social"> <h5>
 
       <div class="soc"><a href="http://www.Facebook.com/">Facebook</a></div>
       <div class="soc"><a href="http://www.Twitter.com/">Twitter</a></div>
       <div class="soc"><a href="http://www.Instagram.com/">Instagram</a> <h5></div>
-</section>
 
- <div class="bottom-line"></div>
+<div class="bottom-line"></div>
 <!--bottom nav-->
  <div class="bottomnav">
     <div class="spacing-top">
@@ -58,6 +63,5 @@
         <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
         <div class="spacing-top">  <a href="#">Content</a></div>
         </div>
-   </body>
-
+</main>
 </html>

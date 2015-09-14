@@ -1,7 +1,7 @@
 /*header*/
 body {background-color:#78ab46;}
 
-.title {text-align:center; font-size:1.5em; font-family: verdana; color: #686868; margin-top:1em; border: 2px solid black;}
+.title {text-align:center; font-size:1.5em; font-family: verdana; color: black; margin-top:1em; border: 2px solid black;}
 .coffee {width: 8em; height:7em; position: absolute; top: 4.5em; right:5em; border: 2px solid black;}
 .name{text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
 .date {text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
@@ -16,3 +16,10 @@ header {text-align: center;bottom-border: 2px solid black;}
 
 /*social links*/
 
+
+/*blog links*/
+.bloglist {text-align: center; text-decoration: none;color: red; font-size:2em;}
+
+/* about my blogging */
+.about {background-color: #a0a0a0; border: 2px solid black; margin-top:1em; height:4em;}
+.link {margin-top: 1em; border-bottom:1px dotted black;}
