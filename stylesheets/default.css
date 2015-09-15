@@ -9,12 +9,12 @@ div a:link {color:green; text-decoration: none; background-color:#c0c0c0;}
 .top-line {border-bottom: 3px solid black; width: 100%; margin-top:1em;}
 
 /*Profile Image,Welcome, and about.*/
-.P-img {text-align:center; border: 3px solid #c0c0c0; margin-top: 1em;}
-.img {border: 1px solid black;}
-.welcome{position: absolute; top: 2em; left: 40px; font-family: Arial;border-bottom:10px solid #ffd700;}
-.website {position:absolute; top: 2.5em; left:1.5em;font-size: 50px;border-bottom:10px solid #ffd700;font-family:Cursive;}
+.P-img {border: 3px solid #c0c0c0; margin-top: 1em;}
+.img {border: 1px solid black; float: center; width:40%;margin-left: 2em;margin-top: 5px;}
+.welcome{font-family: Arial;border-bottom:10px solid #ffd700; float: left; width: 25%;height: 1.5em; margin-top:1em;text-align: center;}
+.website {float: left; width: 25%; font-size: 50px;border-bottom:10px solid #ffd700;font-family:Cursive; margin-top: 1em; clear:left;text-align: center;}
 
-.quick {position:absolute; top: 4em; right:4em;font-family: Arial; font-size: 1em;background-color: #c8c8c8;height: 15em;}
+.quick {float: right; width: 30%; font-family: Arial; font-size: 1em;background-color: #c8c8c8;height: 16em; border: 2px solid black;margin-right: 8px;}
 
 /*main body*/
 .main-body {text-align: center;background-color:#ffd700 ; border: 3px solid #c0c0c0;height: 30em;margin-top: 20px;}
