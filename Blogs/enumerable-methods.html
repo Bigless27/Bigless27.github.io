@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog number?</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href=../stylesheets/default.css>
+  <link rel="stylesheet" type="text/css" href=../stylesheets/blog.css>
+</head>
+
+<main>
+  <!--topnav-->
+
+  <div class="topnav">
+    <header> <div class="spacing-top">
+      <a href="#">Home</a></div>
+       <div class="spacing-top"><a href="#">About Me</a> </div>
+
+        <div class="spacing-top"><a href="#">Projects</a></div>
+
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="#">Content</a></div>
+        </div>
+  <!--Header-->
+  <div class="title"><h1>Blog title></h1></div>
+  <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
+  <div class="name">by Ryan Lesson</div>
+  <div class="date"> Date?</div>
+  <div class="top-line"></div>
+
+
+    <div class="P">
+    <p>
+     Hey guys, I hope all is well. Today I am going to be blogging about an enumerable method in Ruby. The specific enumerable method I will be discussing today will be Enumerable#map. This method is very useful and since learning it I have already used it in my code a couple times. What does this method do anyways? To dive into that lets first look at a simple example of how it works.
+    </p>
+
+
+    <p>
+    e.g.
+  1.-Array=[1,2,3,4,5,6,7,8,9,10]
+  <br>
+  2.-Array.map{|number| number.odd?}
+  ^ this returns
+  [true, false, true, false, true, false, true, false, true, false]
+</p>
+
+  <p>
+    Alright guys, so what happened? First off what the #map method does is iterate through the object that is placed in front of it (this would be array).  Then it applies all the code that you provided in the curly brackets on line 2. |number| is how we define the variable that #map will use to iterate over the array. For instance, once the first element in the array has had the code executed on it it will then move on to the next element. This happens until every character in the array has been iterated through. The code I ran on the number variable is the #odd? method which returns true if the number is odd and false otherwise. As you can see from the output that the the #odd? method has been applied to all objects in the array.
+
+    <p>
+      #map method is very useful for multiple reasons. To give you guys a quick example of how useful it is let’s apply the same code above to a bigger array. What if instead of the Array variable on line one containing an array of 10 integers it contained 1000 integers. Also, what if these numbers were all random, how would you go about finding how many odd numbers there are in that array? This is were the #map saves the day because if we apply the same code on line 2 to this bigger array it will instantly return a string with identified odd and even values. All we would need to do is count the true statements in the array and we would know exactly how many odd numbers are in this 1000 integer array.
+
+
+    </p>
+
+  </div>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+
+  <!--Social-->
+
+  <div class="checkout">Follow me on social media</div>
+  <section class="social"> <h5>
+
+      <div class="soc"><a href="http://www.Facebook.com/">Facebook</a></div>
+      <div class="soc"><a href="http://www.Twitter.com/">Twitter</a></div>
+      <div class="soc"><a href="http://www.Instagram.com/">Instagram</a> <h5></div>
+
+<div class="bottom-line"></div>
+<!--bottom nav-->
+ <div class="bottomnav">
+    <div class="spacing-top">
+      <a href="#">Home</a></div>
+       <div class="spacing-top"><a href="#">About Me</a> </div>
+
+        <div class="spacing-top"><a href="#">Projects</a></div>
+
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="#">Content</a></div>
+        </div>
+</main>
+</html>
