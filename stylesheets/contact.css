@@ -1,0 +1,19 @@
+
+
+/*icon height*/
+#social img{height: 5.5em;
+    width: 5.5em;
+    font-size: 65%;
+    margin-right: 7em;
+    margin-left: 12em;
+    margin-top: 2em;}
+
+/*Content*/
+.top-block{text-align:center; font-size: 3em;text-decoration: underline; font-weight:bold;color:#2f4f4f;background-color:#c0c0c0;border:black 3px solid;margin-top:1em;padding:0em;}
+
+.information{text-align:center; font-size:2em; color:black;font-family:verdana;background-color:#ccac00;  margin-top: 0.5em;}
+
+.follow{text-align:center;color:black;text-decoration: underline}
+
+
+

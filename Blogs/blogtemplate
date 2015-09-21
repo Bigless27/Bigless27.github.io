@@ -12,7 +12,7 @@
 
   <div class="topnav">
     <header> <div class="spacing-top">
-      <a href="#">Home</a></div>
+      <a href="../index.html">Home</a></div>
        <div class="spacing-top"><a href="#">About Me</a> </div>
 
         <div class="spacing-top"><a href="#">Projects</a></div>
@@ -21,7 +21,7 @@
         <div class="spacing-top">  <a href="#">Content</a></div>
         </div>
   <!--Header-->
-  <div class="title"><h1>Blog title></h1></div>
+  <div class="title"><h1>Blog title</h1></div>
   <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
   <div class="name">by Ryan Lesson</div>
   <div class="date"> Date?</div>
