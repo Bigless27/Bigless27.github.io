@@ -46,8 +46,11 @@ a{color:#660000;}
 /*bottom nav*/
 .bottom-line {border-bottom: 3px solid black; width: 100%;}
 
+.bottomnav{text-align:center; margin-top:1em;}
+
 /*more space*/
 .more_space{width:100%;height:10em;}
+
 
 
 
