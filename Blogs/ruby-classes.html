@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog number 5</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href=../stylesheets/default.css>
+  <link rel="stylesheet" type="text/css" href=../stylesheets/blog.css>
+   <link rel="shortcut icon" href="../Bigless27.github.io.imgs/waiuigi_favicon.io.png" type="image/x-icon">
+</head>
+
+<main>
+  <!--topnav-->
+
+  <div class="topnav">
+    <header> <div class="spacing-top">
+      <a href="../index.html">Home</a></div>
+       <div class="spacing-top"><a href="#">About Me</a> </div>
+
+        <div class="spacing-top"><a href="#">Projects</a></div>
+
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="#">Contact</a></div>
+        </div>
+  <!--Header-->
+  <div class="title"><h1>Ruby Classes</h1></div>
+  <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
+  <div class="name">by Ryan Lesson</div>
+  <div class="date"> 09/26/2015</div>
+  <div class="top-line"></div>
+
+
+    <div class="P">
+  <p>
+
+  <img class="snippit5" src="../Bigless27.github.io.imgs/ruby_snippit.png">
+
+</p>
+
+    <p>
+      Hey everyone, I hope that you are having a great day! This past week at DBC I really solidified my knowledge of classes in ruby. Today I will be explaining to you the difference between a instance variable and a local variable. Also, I will be talking about instance methods and how they work.
+<br>
+First off let’s dive into instance variables. Instance variable differ from local variable because instead of only being available to be called on within the method, they can be called upon anywhere in the class. You can define an instance variable with the @ symbol right before the variable. As you can see above I have identified @name as my instance variable and set it equal to name. Now, for every new method I write inside the teaching class, the instance variable can be accessed. As you can see in my message method I use the @name variable in my string so I am able to call on it.
+
+    </p>
+
+
+    <p>
+      Now let’s talk about what an instance method is. I have defined an instance method in my teaching class. It is denoted with the attr_accessor method. There are three kinds on instance methods
+  -attr_reader
+  -attr_writter
+  -attr_accessor.
+these methods essentially make it easier to display or change instance variables without having to define methods.
+
+    </p>
+    <p>
+    what an attr_reader amounts to in a class is equal to this(I am using my class above as the example):
+
+  def name
+    @name
+  end
+A reader method makes it simpler to display the variable without having to call on a method to do so.
+
+If I were to use an attr_writter in the class above it would equal this:
+</p>
+<p>
+  If I were to use an attr_writter in the class above it would equal this:
+
+
+  def name(name)
+    @name=name
+  end
+as you can see in this method the attr_writter makes it easier for you to change the value on an instance method without having to define a method.
+
+Finally, an attr_accessor method combines both of what the reader and writer method do into one. This make it easier to display a instance variable an to also change it to something else. That’s all i have for today on instance methods and hope you have a great day!
+</p>
+
+  </div>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+
+  <!--Social-->
+
+  <div class="checkout">Follow me on social media</div>
+  <section class="social"> <h5>
+
+      <div class="soc"><a href="http://www.Facebook.com/">Facebook</a></div>
+      <div class="soc"><a href="http://www.Twitter.com/">Twitter</a></div>
+      <div class="soc"><a href="http://www.Instagram.com/">Instagram</a> <h5></div>
+
+<div class="bottom-line"></div>
+<!--bottom nav-->
+ <div class="bottomnav">
+    <div class="spacing-top">
+      <a href="#">Home</a></div>
+       <div class="spacing-top"><a href="#">About Me</a> </div>
+
+        <div class="spacing-top"><a href="#">Projects</a></div>
+
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="#">Contact</a></div>
+        </div>
+</main>
+</html>
