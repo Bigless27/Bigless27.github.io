@@ -21,7 +21,7 @@ header {text-align: center;bottom-border: 2px solid black;}
 .bloglist {text-align: center; text-decoration: none;color: red; font-size:2em;}
 
 /* about my blogging */
-.about {background-color: #a0a0a0; border: 2px solid black; margin-top:1em; height:4em;}
+.about_b {background-color: #a0a0a0; border: 2px solid black; margin-top:1em; height:4em;}
 .link {margin-top: 1em; border-bottom:1px dotted black;}
 
 /*title-container*/

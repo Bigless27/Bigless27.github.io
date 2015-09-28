@@ -29,17 +29,15 @@ a{color:#660000;}
 .extra {text-align: center;background-color:#ffd700 ; border: 3px solid #c0c0c0 ; height: 20em;margin-top:20px;}
 
 /*Social Media Links*/
-.checkout {text-align:center;border-bottom:2px dashed black; font-family: sans-serif; font-weight: bolder; margin-top: 10px; color: black ;}
+/*icon height*/
+.social_line {border-bottom: 3px black dotted; width: 100%; }
 
-
-
-.soc {display: inline-block; margin-left: 5em; font-family:Verdana;}
-
-.soc a:link{text-decoration: none;}
-
-.soc a:hover{color:blue;}
-
-.social{text-align: center;}
+#social img{height: 5.5em;
+    width: 5.5em;
+    font-size: 65%;
+    margin-right: 7em;
+    margin-left: 12em;
+    margin-top: 2em;}
 
 
 
@@ -51,7 +49,16 @@ a{color:#660000;}
 /*more space*/
 .more_space{width:100%;height:10em;}
 
+/*about me*/
+.me_miami {height: 25em; margin-right:10px;float:right;border:2px red solid;}
 
+.about {float:left;font-size:30px;position:absolute; font-family:verdana; left:2em;text-decoration:underline;color:red;}
+
+.info {color:#606060;text-align:justify;}
+
+#heat_container {height:30em;margin-top:1em;}
+
+.textb_about_me {float:left;clear:left; margin-top:4em;margin-left:1em;width:40%; }
 
 
 
