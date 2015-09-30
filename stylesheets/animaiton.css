@@ -1,0 +1,7 @@
+@keyframes color {
+  0%   {background-color: white;}
+    25%  {background-color: #78ab46;}
+    50%  {background-color: white;}
+    100% {background-color: #78ab46;}
+}
+
