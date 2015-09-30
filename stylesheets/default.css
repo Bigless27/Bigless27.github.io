@@ -6,12 +6,23 @@
     100% {background-color: #78ab46;}
 }
 
+@keyframes moving {
+    20%  { left:0px; }
+    40%  { left:900px; }
+    60%  {left:0px;}
+    80% { left:900px;}
+    100% {left:0px;}
+
+  }
+
 /*Background color*/
-body {width: 100%;
+.home-page {width: 100%;
     height: 100%;
     background-color: #78ab46;
     animation-name: change;
-    animation-duration: 6s;}
+    animation-duration: 4s;}
+
+body{background-color: #78ab46;}
 /*top nav*/
 
 
@@ -72,6 +83,9 @@ a{color:#660000;}
 #heat_container {height:30em;margin-top:1em;}
 
 .textb_about_me {float:left;clear:left; margin-top:4em;margin-left:1em;width:40%; }
+
+/* About me Heat Logo animation*/
+.Heat_logo {height: 10em;width:10em;position:relative; animation-name:moving; animation-duration:10s;}
 
 
 
