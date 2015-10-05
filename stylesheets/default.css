@@ -54,7 +54,7 @@ a{color:#660000;}
 
 /*Social Media Links*/
 /*icon height*/
-.social_line {border-bottom: 3px black dotted; width: 100%; }
+.social_line {border-bottom: 3px black dotted; width: 100%; margin-top:10px;}
 
 #social img{height: 5.5em;
     width: 5.5em;
