@@ -1,18 +1,22 @@
 /*header*/
 body {background-color:#78ab46;}
 
-.title {float:center; font-size:1.5em; font-family: verdana; color: black; margin-top:1em; width:80%;}
-.coffee {float:right; width:5%;border:1px solid black}
+.title {text-align: center; font-size:1.5em; font-family: verdana; color: black; margin-top:1em;text-decoration:underline;}
+.date_container{border:2px solid;position:relative;}
+.coffee {position:absolute; right:0px;top:0;  width:4em;height:2.35em;}
 .name{text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
 .date {text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;}
+
 .top-line{bottom-border: 4px solid black; width:100%;}
 
 /*body*/
-.P {background-color: #a8a8a8;border: 2px solid black;}
+.P {background-color: #a8a8a8;border: 2px solid black;padding:10px;}
 
 .body {background-color: #a8a8a8;border: 2px solid black;}
 
 header {text-align: center;bottom-border: 2px solid black;}
+
+.bot-line{border-bottom:1px dotted black;margin-top:10px;}
 
 /*social links*/
 
@@ -29,3 +33,11 @@ header {text-align: center;bottom-border: 2px solid black;}
 
 /*snippet 5*/
 .snippit5{height:12em;width:12em;}
+
+
+
+
+/*Blog 7 css*/
+.r_vs_j1{margin:auto; width:10em;}
+.r_vs_j2{margin:auto;width:10em;}
+.blog7snip{text-align:center;font-family:verdana;}
