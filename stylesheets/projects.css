@@ -1,0 +1,18 @@
+/*Container*/
+.background_container {position:relative;height:50em;width:100%;margin-top:1em;}
+
+.project_container {height:12.5em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:10em;position:absolute;top:0px; left:4.25em;}
+
+/*Project links*/
+.project_links {font-size:25px;}
+
+.project_links a:link{text-decoration:none;}
+.project_links a:hover{color:yellow;}
+
+.plinks{color:red;border:2px black solid; padding:5px;background-color:blue;}
+
+
+
+
+
+.my_projects {color:black;text-decoration:underline;font-family:serif;}

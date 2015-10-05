@@ -22,7 +22,9 @@ header {text-align: center;bottom-border: 2px solid black;}
 
 
 /*blog links*/
-.bloglist {text-align: center; text-decoration: none;color: red; font-size:2em;}
+.bloglist {text-align: center; text-decoration: none;color: blue; font-size:2em;}
+.bloglist a:link{text-decoration: none;}
+
 
 /* about my blogging */
 .about_b {background-color: #a0a0a0; border: 2px solid black; margin-top:1em; height:4em;}
