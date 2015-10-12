@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="shortcut icon" href="../Bigless27.github.io.imgs/waiuigi_favicon.io.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="../stylesheets/cheat_sheet.css">
+
+
+  <title>Cheat Sheet</title>
+
+</head>
+
+
+  <body class="home-page">
+  <!--top nav-->
+    <div class="topnav">
+    <header> <div class="spacing-top">
+      <a href="#">Home</a></div>
+       <div class="spacing-top"><a href="about_me.html">About Me</a> </div>
+
+        <div class="spacing-top"><a href="projects/index.html">Projects</a></div>
+
+        <div class="spacing-top"> <a href="Blogs/blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="contact/contact.html">Contact</a></div>
+        </div>
+
+
+ </header>
+
+<!--Background Container-->
+<div class="background_container">
+  <div class="city">
+  <img src="../Bigless27.github.io.imgs/nyc.jpg" width=100% height =1500 alt="NYC"/>
+  </div>
+
+<!--text box container -->
+
+<div class="text_container">
+  <p class="cheat_sheet"> Cheat Sheet</p>
+  <img class="cheat" src="../Bigless27.github.io.imgs/cheat_sheet.jpg" alt="cheating"/>
+  <div class="title">JavaScript Prototypes</div>
+  <div class="section"></div>
+  <div class="text-box">
+
+  <p class="p1">Lets talk about what prototyping is in JavaScript. At first this may seem like a scary topic, that may be hard to learn. Not to worry. because with this cheat sheet you will become a master on prototyping.
+</p>
+<div class="holder1">
+  <img class="img" src="../Bigless27.github.io.imgs/prototype1.png">
+
+  <p class="p1">
+I will start by explaining what is going on in the above example. As you can see I am creating a constructor function called Fish(), which does not except any parameters. Next I use the &quot;this&quot; statement to create objects within this function (for practical reasons I am going to leave the value of these attributes blank). After that I close the function and I do not forget to add a &quot;;&quot; after the function to signal that it ends. I created a variable called fisherman for this function and I set it equal to an instance of the class Fish(). Now, initiate the two instance of the function as seen on lines 8 and 9, I am now setting the value of fisherman to equal those values. If we were to display fisherman we would see that &quot;Goku&quot;, and &quot;Salmon&quot; are but as the properties for each object.
+  </p>
+</div>
+
+<p class="lable">Prototype</p>
+<div class="holder2">
+
+  <img class="img" src="../Bigless27.github.io.imgs/prototype2.png">
+  <p class="p1">
+
+In the next example above I added on lines 12 a prototype of the class Fish(), that allows me to add a object and property to Fish(). I specified that I want this new object to have the function weight that accepts one parameter of user information, and returns it. On line 16 I call the object weight in Fish() then I input a parameter in it. Now if I were to display fisherman you would see an object weight has be added to fisherman along with the value of 80 as its property. This make is easier for us to add subclasses into the functions so that we don’t have to do it all inside of the function itself.
+</p>
+</div>
+<p class="lable">Inheritance</p>
+<div class="holder3">
+
+  <img class="img" src="../Bigless27.github.io.imgs/prototype3.png">
+
+<p class="p1" >
+Finally, a prototype can help a function inherit from another one. In the example above I have created two functions/class called Fish() and Guppy(). Things to note is that I have set the objects in the functions to equal strings. On line 12 I used the prototype method again, but this time I set it equal to a new instance of Fish(). Now Guppy() will be able to inherit all of the objects and properties of the functions Fish(). When I go to display Guppy.name on line 14 it will now display &quote;Nemo&quote;.
+</p>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!--Social Links-->
+
+<div class="social_line"></div>
+  <div id="social">
+
+      <a href="https://twitter.com/?lang=en"><img src="../Bigless27.github.io.imgs/twitter.png" alt="Twitter"></a>
+
+      <a href="http://www.facebook.com"><img src="../Bigless27.github.io.imgs/high-res-logo_facebook1.png" alt="Facebook"></a>
+
+      <a href="https://www.linkedin.com"><img src="../Bigless27.github.io.imgs/Linkedin.jpg" alt="Linkedin"></a>
+
+      <a href="http://www.GitHub.com/Bigless27"><img src="../Bigless27.github.io.imgs/Octocat.png" alt="GitHub"></a>
+    <div>
+<div class="bottom-line"></div>
+
+
+
+<!--bottom nav-->
+ <div class="bottomnav">
+        <div class="spacing-top">
+         <a href="#">Home</a></div>
+        <div class="spacing-top"><a href="about_me.html">About Me</a> </div>
+
+        <div class="spacing-top"><a href="projects/index.html">Projects</a></div>
+
+        <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
+        <div class="spacing-top">  <a href="contact/contact.html">Contact</a></div>
+        </div>
+   </body>
+
+</html>
