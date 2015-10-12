@@ -43,3 +43,9 @@ header {text-align: center;bottom-border: 2px solid black;}
 .r_vs_j1{margin:auto; width:10em;}
 .r_vs_j2{margin:auto;width:10em;}
 .blog7snip{text-align:center;font-family:verdana;}
+
+
+/*Blog sort css*/
+.sort {border:2px black solid; margin-left: 27em;}
+.sorttalk {width:35em; margin-left:20em;}
+.sorttalk1 {width:40em; margin-left:18em;}
