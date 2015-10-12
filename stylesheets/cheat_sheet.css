@@ -1,0 +1,26 @@
+/*Containers*/
+.background_container {position:relative;margin-top:1em;}
+
+.text_container {height:23.38em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:12em;position:absolute;top:0px; left:2.75em;}
+
+.cheat_sheet {font-family:sans-serif;text-decoration:underline;float:left;margin-left:2em;font-weight:100}
+
+.cheat {width:230px;height: 100px; float:right; margin-top:0.43em; border-bottom: 5px black solid;margin-right:0.9em}
+
+.section{border-bottom: 3px black dotted; width:100%; margin-top:3.5em;display:block;}
+
+.title {position:absolute;font-size:30px;border:2px solid;top:5.5em; left:250px;background-color:#A0A0A0}
+
+.p1 {font-size:14px;margin:2em; margin-top:10px}
+
+.img {border-bottom:5px solid red;}
+
+.holder1{margin-left:2em; width:70%;border:3px solid black;}
+
+
+.holder2{margin-left:2em; width:70%;border:3px solid grey;}
+
+
+.holder3{margin-left:2em; width:70%;border:3px solid blue;}
+
+.lable {font-size:22px; font-family:verdana;font-weight:bold}
