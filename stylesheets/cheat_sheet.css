@@ -1,7 +1,7 @@
 /*Containers*/
 .background_container {position:relative;margin-top:1em;}
 
-.text_container {height:23.38em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:12em;position:absolute;top:0px; left:2.75em;}
+.text_container {height:31em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:12em;position:absolute;top:0px; left:2.75em;}
 
 .cheat_sheet {font-family:sans-serif;text-decoration:underline;float:left;margin-left:2em;font-weight:100}
 
@@ -13,7 +13,7 @@
 
 .p1 {font-size:14px;margin:2em; margin-top:10px}
 
-.img {border-bottom:5px solid red;}
+.img {border-bottom:5px solid red;height:300px;width:300px;}
 
 .holder1{margin-left:2em; width:70%;border:3px solid black;}
 
