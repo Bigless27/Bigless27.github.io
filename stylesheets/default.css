@@ -26,9 +26,9 @@ a{color:#660000;}
 
 /*Profile Image,Welcome, and about.*/
 .P-img {border: 3px solid #c0c0c0; margin-top: 0.5em;position:relative;}
-.img {border: 3px solid black; float: right; width:35%;margin-right: 2.5em;margin-top: 5px;}
+.shakeimage {border: 3px solid black; float: right; width:35%;margin-right: 2.5em;margin-top: 5px;}
 .welcome{font-family: Arial;border-bottom:10px solid #ffd700; float: left; width: 35%;height: 1.5em; margin-top:1em;text-align: center;font-size:25px;margin-left:4em;}
-.website {float: left; width: 25%; font-size: 50px;border-bottom:10px solid #ffd700;font-family:Cursive; margin-top: 1.5em; ;text-align: center;margin-left:3em;clear:left;}
+.website {float: left; width: 20%; font-size: 50px;border-bottom:10px solid #ffd700;font-family:Cursive;text-align: center;margin-left:3em;}
 
 
 
