@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog number 7</title>
+  <title>Blog Two</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href=../stylesheets/default.css>
   <link rel="stylesheet" type="text/css" href=../stylesheets/blog.css>
@@ -14,37 +14,53 @@
   <div class="topnav">
     <header> <div class="spacing-top">
       <a href="../index.html">Home</a></div>
-       <div class="spacing-top"><a href="..about_me.html">About Me</a> </div>
+       <div class="spacing-top"><a href="../about_me.html">About Me</a> </div>
 
-        <div class="spacing-top"><a href="../projects/indde.html">Projects</a></div>
+        <div class="spacing-top"><a href="../projects/index.html">Projects</a></div>
 
         <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
-        <div class="spacing-top">  <a href="#">Contact</a></div>
+        <div class="spacing-top">  <a href="../contact/contact">Contact</a></div>
         </div>
+
+
   <!--Header-->
-  <div class="title"><h1>Blog title</h1></div>
+<div class="background_container_blog">
+  <div class="city">
+  <img src="../Bigless27.github.io.imgs/nyc.jpg" width=100% height =740 alt="NYC"/>
+  </div>
+<!--end background image container-->
+
+<div class="text_container_blog">
+  <div class="title"><h1>My first week at DBC</h1></div>
   <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
+
   <div class="name">by Ryan Lesson</div>
-  <div class="date"> Date?</div>
+  <div class="date"> August 25th,2015 </div>
   <div class="top-line"></div>
 
 
     <div class="P">
       <!--Add Paragraphs here -->
-    <p>
+    <p>What are the differences between relative, absolute, fixed, and static positioning? This is a great question that took me a long time to figure out the answers too. When I first learned the concepts none of the information stuck. I was constantly looking back over material to help solve this problem. Finally after many time constantly reviewing the material I can finally say I what these forms of positioning do. Relative positioning positions the element relative to other elements on the page. This is the elements normal position and will move over for other elements to create space. Absolute positioning on the other hand doesn’t care about other elements on the page it places itself in relation to its parent element. If no parent element is stated in the html then the absolute positioned element parent is the entire web page itself. This is good for placing an image exactly where you want on the page.
     </p>
 
 
-    <p>
+    <p>Static positioning is html default placement of elements. Static elements don’t have similar properties of relative and absolute like top, bottom, left and right. These elements follow the flow of your html code. Finally, Fixed positioning is very interesting. Any element placed in a fixed position is relative to the users viewpoint. This means wherever you place an element in a fixed position it will stay in that spot, even if the user scrolls down. This make it easy for things like navigation bars to always be accessible so the user doesn’t have to scroll all the way up to access content. I personally prefer using fixed positioning for elements like logos. The benefit of this is that if a person was to randomly jump to any page of you website they’ll know that our company is behind the content.
+
 
     </p>
+<p>  Something that I forgot to mention about absolute positioning is that you need to type in the dimension for where to place the element. These are the top, right, left, and bottom properties. When typing in the values for these properties it is good to mention that you should use the “em” unit instead of “px”, this is because of the way computer screens display pixels. Some screens may be smaller than others and lead to distortion of the placement of your content. The “em” unit adjusts your dimensions relative to the users screen so you don’t have to worry the positioning of your elects on different screens.
+
+</p>
 
   </div>
+</div>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
 
   <!--Social-->
-<div class="social_line"></div>
+
+  <div class="social_line"></div>
   <div id="social">
 
       <a href="https://twitter.com/?lang=en"><img src="../Bigless27.github.io.imgs/twitter.png" alt="Twitter"></a>
@@ -56,19 +72,18 @@
       <a href="http://www.GitHub.com/Bigless27"><img src="../Bigless27.github.io.imgs/Octocat.png" alt="GitHub"></a>
     <div>
 
-
-
 <div class="bottom-line"></div>
 <!--bottom nav-->
  <div class="bottomnav">
     <div class="spacing-top">
-      <a href="#">Home</a></div>
+      <a href="../index.html">Home</a></div>
        <div class="spacing-top"><a href="../about_me.html">About Me</a> </div>
 
         <div class="spacing-top"><a href="../projects/index.html">Projects</a></div>
 
         <div class="spacing-top"> <a href="blog-main.html">Blog</a></div>
-        <div class="spacing-top">  <a href="#">Contact</a></div>
+        <div class="spacing-top">  <a href="../contact/contact">Contact</a></div>
         </div>
 </main>
 </html>
+
