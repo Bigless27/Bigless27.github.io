@@ -48,9 +48,11 @@ header {text-align: center;bottom-border: 2px solid black;}
 
 
 /*Blog sort css*/
-.sort {border:2px black solid; margin-left: 27em;}
-.sorttalk {width:35em; margin-left:20em;}
-.sorttalk1 {width:40em; margin-left:18em;}
+.sort {border:2px black solid; margin-left: 10em;margin-top:10px;}
+.sorttalk {width:35em; margin-left:1em;}
+.sorttalk1 {width:40em; margin-left:1em;}
+
+.bubble{font-weight:bold;}
 
 /*Text container and Background*/
 .text_container_blog {height:11em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:13em;position:absolute;top:0px; left:3.4em;}

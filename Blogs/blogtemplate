@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog Five</title>
+  <title>Blog Seven</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href=../stylesheets/default.css>
   <link rel="stylesheet" type="text/css" href=../stylesheets/blog.css>
@@ -31,58 +31,42 @@
 <!--end background image container-->
 
 <div class="text_container_blog">
-  <div class="title"><h1>Ruby Classes</h1></div>
+  <div class="title"><h1>Tech Blog: Sorting</h1></div>
   <img class ="coffee" src="../Bigless27.github.io.imgs/a-cup-of-coffee.jpg" alt="A cup of coffee">
 
   <div class="name">by Ryan Lesson</div>
-  <div class="date"> October 3rd,2015 </div>
+  <div class="date"> October 11th,2015 </div>
   <div class="top-line"></div>
 
 
     <div class="P">
- <p>
+<p class="sorttalk1">
+      -Hey guy, today I will be talking to you about sorting. A sort method as you have probably seen before in computer languages can sort an array of element into almost anyway that you specify. Some quick examples of this are sorting the elements in ascending and descending order. You may have wondered how the computer actually sorts these elements in that array? Well there is a built in sorting method that is invaded when you call on the sort function ,and I am here to talk to you about three ways to sort an array. The three ways to sort an array are bubble sort, quick sort, and merge sort.
+    </p>
 
-  <img class="snippit5" src="../Bigless27.github.io.imgs/ruby_snippit.png">
 
-</p>
+    <img class="sort" src="../Bigless27.github.io.imgs/real-bubble.png" height=320 width=330/>
+    <p class="sorttalk">
+      -Bubble sort, as pictured above, is a very simple way to sort items. The first step is to compare the first element with the second element. and if the first element is bigger that the second swap the elements.  Next take the second element that you just swapped (if it was larger) and compare that to the third element. Repeat this process until you have gone through every element in the array. Now, depending on the length of the array, you would need to complete this process the same number of times as the the length of the array. Also, the name “bubble” in bubble sort is named like that because of how the bigger numbers move to the end of the array or “bubble to the top”.
 
-    <p>
-      Hey everyone, I hope that you are having a great day! This past week at DBC I really solidified my knowledge of classes in ruby. Today I will be explaining to you the difference between a instance variable and a local variable. Also, I will be talking about instance methods and how they work.
-<br>
-First off let’s dive into instance variables. Instance variable differ from local variable because instead of only being available to be called on within the method, they can be called upon anywhere in the class. You can define an instance variable with the @ symbol right before the variable. As you can see above I have identified @name as my instance variable and set it equal to name. Now, for every new method I write inside the teaching class, the instance variable can be accessed. As you can see in my message method I use the @name variable in my string so I am able to call on it.
 
     </p>
 
 
-    <p>
-      Now let’s talk about what an instance method is. I have defined an instance method in my teaching class. It is denoted with the attr_accessor method. There are three kinds on instance methods
-  -attr_reader
-  -attr_writter
-  -attr_accessor.
-these methods essentially make it easier to display or change instance variables without having to define methods.
-
+<div class="social_line"></div>
+     <img class="sort" src="../Bigless27.github.io.imgs/quick_sort.png"height=320 width=330/>
+    <p class="sorttalk">
+      -Quick sort, as pictured above, is a faster way than bubble sort to sort an array. Quick sort requires less repetitions of the process when sorting through the process. This is in contrast to a bubble sort which runs through the same number of cycles as its array’s length. First the quick sort method chooses a partition. This partition is usually slated at the end of the array so that it is easier to sort it out. Next check the farthest element one the opposite side of the array. If that element is greater than or less than (depending on Ascending or descending order). If we find an element greater than the pivot on the left hand side of the pivot, we move it to the right of the pivot. On the contrary if the element is less than the pivot, then we will leave it to the left of the pivot. What we are basically doing here is comparing the elements to each other and determining the final position of each element one step at a time.
     </p>
-    <p>
-    what an attr_reader amounts to in a class is equal to this(I am using my class above as the example):
-
-  def name
-    @name
-  end
-A reader method makes it simpler to display the variable without having to call on a method to do so.
-
-If I were to use an attr_writter in the class above it would equal this:
-</p>
-<p>
-  If I were to use an attr_writter in the class above it would equal this:
 
 
-  def name(name)
-    @name=name
-  end
-as you can see in this method the attr_writter makes it easier for you to change the value on an instance method without having to define a method.
+<div class="social_line"></div>
+    <img class="sort" src="../Bigless27.github.io.imgs/mergesort.jpg" height=320 width=330/>
 
-Finally, an attr_accessor method combines both of what the reader and writer method do into one. This make it easier to display a instance variable an to also change it to something else. That’s all i have for today on instance methods and hope you have a great day!
-</p>
+    <p class="sorttalk">
+      -Merge sort , as pictured above, is a way of breaking down the elements and putting them back together sorted. First what you would do is group to element into two sections. Than you would repeat this method until we have each element by itself. We then start putting the elements back together into sections by merging elements  into each other. Within the elements we compare the values and swap them. Once we have two sorted lists we compare the two sorted list’s elements to each other. and start to populate a final list which contains all the elements in the list sorted.
+    </p>
+
 
 </div>
 </div>
