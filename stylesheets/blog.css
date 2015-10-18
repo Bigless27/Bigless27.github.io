@@ -55,7 +55,10 @@ header {text-align: center;bottom-border: 2px solid black;}
 .bubble{font-weight:bold;}
 
 /*Text container and Background*/
-.text_container_blog {height:11em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:13em;position:absolute;top:0px; left:3.4em;}
+.text_container_blog {height:12em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:13em;position:absolute;top:0px; left:3.4em;}
+.text_container_blog1 {height:11em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:13em;position:absolute;top:0px; left:3.4em;}
+
+.text_container_blog8 {height:10em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:13em;position:absolute;top:0px; left:3.4em;}
 
 .background_container_blog {position:relative;height:50em;width:100%;margin-top:1em;}
 
