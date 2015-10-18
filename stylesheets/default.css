@@ -58,27 +58,30 @@ a{color:#660000;}
 .more_space{width:100%;height:10em;}
 
 /*about me*/
-.me_miami {height: 25em; margin-right:10px;float:right;border:2px red solid;}
+/*about me*/
 
-.about {float:left;font-size:30px;position:absolute; font-family:verdana; left:2em;text-decoration:underline;color:red;}
-
-.info {color:#606060;text-align:justify;}
-
-#heat_container {height:30em;margin-top:1em;}
-
-.textb_about_me {float:left;clear:left; margin-top:4em;margin-left:1em;width:40%; }
+/*Background Container*/
+.background_container {position:relative;margin-top:1em;}
 
 
-#logo_container{width:100%; height:10em;}
+.text_container {height:16em;border:2px black solid;background-color:#d3d3d3;text-align: center;font-size:4em;width:15em;position:absolute;top:0px; left:2em;}
 
-/*Youtube video in about me */
-.youtube{display:block; margin: 0 auto; margin-top:1em; border:2px black solid;}
-#youtube_container {width:100%; height:15em;border-top:1px black solid;margin-top:1em;}
-.youtube_comment {text-align:center; font-family:verdana;margin-top:1em; font-size:1em; color:#660000; text-decoration:underline; }
+/*Content*/
+
+
+.me_miami {height: 16em;float:right;width:20em;padding:1em;}
+
+.about {float:left;font-size:30px;position:absolute; font-family:verdana; left:1em;text-decoration:underline;color:red;margin-top:1em;}
+
+.info {color:black;text-align:justify;float:left;width:29em;padding:5px;}
+
+#heat_container {height:18em;width:52em;margin-top:4em;;font-size:18px;margin-left:10px;position:relative;}
+
+
 
 /*About me game */
-.game_container {width:100%; height:15em;margin-top:9em; display:inline-block;margin-bottom:1em;}
-.game_comment {text-align:center; font-family:verdana;margin-top:1em; font-size:1em; color:#660000; text-decoration:underline;}
+.game_container {width:100%; height:8em;margin-top:10px; display:inline-block;margin-bottom:1em;}
+.game_comment {text-align:center; font-family:verdana;margin-top:1em; font-size:1em; color:#660000; text-decoration:underline;font-size:20px;}
 .game{display:block; margin: 0 auto;margin-top: 1em;}
 
 
