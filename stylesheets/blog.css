@@ -1,7 +1,7 @@
 /*header*/
 body {background-color:#78ab46;}
 
-.title {text-align: center; font-size:22px; font-family: verdana; color: black; margin-top:1em;text-decoration:underline;margin-right:12em;}
+.title {text-align: center; font-size:22px; font-family: verdana; color: black; margin-top:1em;text-decoration:underline;margin-right:10em;}
 
 .coffee {position:absolute; right:0px;top:0;  width:3em;height:2em;padding-top:8px;padding-right:10px;}
 .name{text-align: center; font-family:verdana; color:#686868;background-color:#ffd700;margin-top:2.7em;font-size:20px;}
